@@ -1,0 +1,144 @@
+﻿ body{ 
+    font-family:Sans-Serif; 
+ }
+
+ header{
+	min-height: 80px;
+	width:100%;
+ }
+
+ nav{
+	 width:100%;
+	 min-height: 1px;
+	 height:100%;
+	 padding:0;
+	 margin:0;
+	 position:relative;
+	 background-color:#FBEE85;
+ }
+
+ nav ul{
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+ }
+
+ nav ul li{
+	list-style:none;
+	margin:0;
+ }
+
+ nav ul li a{
+	display:block;
+	text-align: center;
+	float:left;
+	width:calc(100% / 3);
+	margin:0;
+	padding:0;
+	transition:0.2s ease-in-out;
+	box-sizing: border-box;
+	line-height: 80px;
+	min-height:10px;
+	color:gray;
+ }
+
+ nav ul li a:hover{
+	 background-color: rgb(255, 250, 200);
+	 text-decoration: none;
+	 color:#000;
+ }
+
+ #peterback{
+	background-image:url("./downs/Peter.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color:#fff;
+	text-align:center;
+	padding:0;
+	width:100%;
+ }
+
+ #peterback p{
+	 font-size: 16px;
+ }
+
+#peterback h3{
+	font-weight:bold;
+	font-size:50px;
+}
+
+ #peterback h5{
+	 font-weight: bolder;
+	 font-size: 20px;
+ }
+
+ .peterback{
+
+ }
+
+ #peterback_back{
+	 background:rgba(0, 0, 0, 0.4);
+	 padding:0;
+
+ }
+
+ #peterback_back_back{
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0) );
+ }
+
+ #peterback_back_back_back{
+	background-image: linear-gradient(to left, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0) );
+ }
+
+ #peterback_back_back h3{
+ }
+
+ main{
+	padding:0;
+ }
+
+ footer{
+ }
+
+ footer ul{
+	width:100%;
+	padding:0px;
+	font-size:12px;
+ }
+
+ footer ul li{
+	list-style: none;
+	text-align: left;
+	width:100%;
+ }
+
+ footer ul li a{
+	color:#fff;
+	text-decoration: none;
+ }
+
+ figure{
+	position: relative;
+	box-sizing: border-box;
+ }
+ figcaption a{
+	 color:white;
+	 text-shadow: 1px 1px grey;
+ }
+ figcaption a:hover{
+	 
+	text-shadow:none;
+ }
+
+ figcaption{
+	position:absolute;
+	bottom:0;
+	left:0;
+ }
+
+ .peter{
+	 height:600px;
+ }
